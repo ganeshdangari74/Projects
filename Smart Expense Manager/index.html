@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Expense Manager</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<header>
+  <h2>💰 Expense Manager</h2>
+  <button id="themeToggle">🌙</button>
+</header>
+
+<main class="container">
+
+  <!-- SUMMARY -->
+  <section class="cards">
+    <div class="card">
+      <p>Total Balance</p>
+      <h2 id="balance">₹0</h2>
+    </div>
+    <div class="card income">
+      <p>Income</p>
+      <h2 id="income">₹0</h2>
+    </div>
+    <div class="card expense">
+      <p>Expense</p>
+      <h2 id="expense">₹0</h2>
+    </div>
+  </section>
+
+  <!-- CHART -->
+  <section class="chart-box">
+    <canvas id="chart"></canvas>
+  </section>
+
+  <!-- FORM -->
+  <section class="form-box">
+    <h3>Add Transaction</h3>
+    <form id="form">
+      <input type="text" id="text" placeholder="Description" required>
+      <input type="number" id="amount" placeholder="Amount (+ income / - expense)" required>
+
+      <div class="row">
+        <select id="category">
+          <option>Food</option>
+          <option>Rent</option>
+          <option>Travel</option>
+          <option>Shopping</option>
+          <option>Salary</option>
+        </select>
+
+        <select id="wallet">
+          <option>Cash</option>
+          <option>Bank</option>
+          <option>UPI</option>
+        </select>
+      </div>
+
+      <input type="date" id="date" required>
+      <button>Add Transaction</button>
+    </form>
+  </section>
+
+  <!-- TRANSACTIONS -->
+  <section class="list-box">
+    <h3>Transactions</h3>
+    <input type="text" id="search" placeholder="Search transaction">
+    <ul id="list"></ul>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

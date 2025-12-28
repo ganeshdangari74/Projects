@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="auth-container">
+  <h2>Login</h2>
+
+  <input type="email" id="loginEmail" placeholder="Email">
+  <input type="password" id="loginPassword" placeholder="Password">
+
+  <div class="show-password">
+    <input type="checkbox" onclick="togglePasswordText('loginPassword','loginText')">
+    <span id="loginText">Show password</span>
+  </div>
+
+  <button onclick="login()">Login</button>
+
+  <p><a href="forgot.html">Forgot password?</a></p>
+  <p>New user? <a href="signup.html">Signup</a></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
