@@ -1,4 +1,4 @@
-# Authentication UI PRO
+# Authentication UI 
 
 A **modern frontend authentication system UI** built using **HTML, CSS, and JavaScript**, simulating real-world authentication flows such as signup, login, OTP verification, and password reset.
 
@@ -55,16 +55,6 @@ Authentication UI/
 This project **does not send real emails or SMS**.
 
 > In real-world applications, OTP and password handling must be done securely using a backend (Node.js, Firebase, etc.).
-
----
-
-## 📸 Screenshots
-(Add screenshots here if uploaded to GitHub)
-
----
-
-## Live Demo
-(Add Netlify / Vercel link here)
 
 ---
 
