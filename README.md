@@ -1,27 +1,27 @@
-# 💻 Web Projects
+# Web Projects
 
 This repository contains two frontend web projects built using
 HTML, CSS, and JavaScript.
 
 ---
 
-## 🔐 Authentication UI
+## Authentication UI
 Frontend authentication system with login, signup, OTP verification,
 password strength validation, and session handling.
 
-📂 Folder: `Authentication-UI/`
+Folder: `Authentication-UI/`
 
 ---
 
-## 💰 Smart Expense Manager
+## Smart Expense Manager
 Expense tracking web application with categories, wallets, charts,
 dark mode, and localStorage persistence.
 
-📂 Folder: `Smart-Expense-Manager/`
+Folder: `Smart-Expense-Manager/`
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - HTML5
 - CSS3
 - JavaScript (ES6)
@@ -30,5 +30,5 @@ dark mode, and localStorage persistence.
 
 ---
 
-## 👨‍💻 Author
+## Author
 Ganesh Dangari
