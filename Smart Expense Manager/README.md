@@ -30,11 +30,14 @@ This project helps users track income and expenses with categories, wallets, cha
 ---
 
 ## Project Structure
+
+```
 Smart Expense Manager/
 │── index.html
 │── style.css
 │── script.js
-│── README.md
+└── README.md
+```
 
 ## How Authentication Works (Demo)
 
@@ -70,3 +73,4 @@ This project **does not send real emails or SMS**.
 
 ## Author
 **Ganesh Dangari**
+
