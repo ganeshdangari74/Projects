@@ -30,6 +30,8 @@ This is a **frontend-only demo** (OTP is mocked for learning purposes).
 ---
 
 ## Project Structure
+
+```
 Authentication UI/
 │── index.html (Login)
 │── signup.html (Signup)
@@ -38,7 +40,9 @@ Authentication UI/
 │── dashboard.html (Protected Page)
 │── style.css
 │── script.js
-│── README.md
+│── README.
+
+```
 
 ## How Authentication Works (Demo)
 
