@@ -40,7 +40,7 @@ Authentication UI/
 │── dashboard.html (Protected Page)
 │── style.css
 │── script.js
-│── README.
+└──  README.md
 
 ```
 
